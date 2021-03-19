@@ -1,0 +1,12 @@
+/**home.wxss**/
+.home-swiper{
+  width:100%;
+  height:500rpx
+}
+
+.home-swiper-img{
+  display:flex;
+  flex-direction: column;
+  width:100%;
+  height: 500rpx
+}

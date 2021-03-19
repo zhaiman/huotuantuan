@@ -1,0 +1,11 @@
+<!--components/searchbar/searchbar.wxml-->
+<!-- 搜索栏 -->
+<view class="searchbar">
+  <view class="icontext" wx:if="{{enable}}">
+    <input placeholder="请输入商品名称" bindinput="onInput"></input>
+  </view>
+  <navigator url="/pages/search/search" class="icontext" wx:else>
+    <image src="/assets/imgs/search.png"></image>
+    <text>搜索</text>
+  </navigator>
+</view>

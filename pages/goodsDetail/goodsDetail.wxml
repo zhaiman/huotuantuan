@@ -1,0 +1,5 @@
+<!--pages/goodsDetail/goodsDetail.wxml-->
+<text>{{infos.title}}</text>
+<image>
+  {{infos.author.avatar_url}}
+</image>

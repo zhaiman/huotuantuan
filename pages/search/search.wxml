@@ -1,0 +1,12 @@
+<!--pages/search/search.wxml-->
+<searchbar enable="{{true}}" bindonfetch="onSearch"></searchbar>
+
+<view class="results">
+  <view class="item" wx:for="{{results}}" wx:key="item.id" bindtap="toDetail" data-url="{{item.url}}">
+    <image src="{{item.img}}"></image>
+    <view class="info">
+      <view class="title">{{item.title}}</view>
+      <view class="year">{{item.year}}</view>
+    </view>
+  </view>
+</view>

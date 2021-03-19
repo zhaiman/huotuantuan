@@ -1,0 +1,11 @@
+<!--components/wcard/wcard.wxml-->
+<navigator wx:for="{{goods}}" wx:key="item" url="../../pages/goodsDetail/goodsDetail?id={{item.id}}" hover-class="navigator-hover">
+  <van-card
+    num="{{item.reply_count}}"
+    price="{{item.tab}}"
+    desc="{{item.author.loginname}}"
+    title="{{item.title}}"
+    thumb="{{ item.author.avatar_url }}"
+  />
+
+</navigator>

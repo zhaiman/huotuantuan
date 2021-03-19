@@ -1,0 +1,35 @@
+/* pages/search/search.wxss */
+.results {
+  padding: 20rpx;
+}
+
+.item {
+  padding: 10rpx 0;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.item > image {
+  height: 100rpx;
+  width: 75rpx;
+  margin-right: 20rpx;
+}
+
+.item > .info {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.info > .title {
+  font-size: 32rpx;
+  color: #444;
+  font-weight: 500;
+}
+
+.info > .year {
+  font-size: 28rpx;
+  color: #aaa
+}

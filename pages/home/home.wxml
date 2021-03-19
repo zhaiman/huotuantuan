@@ -1,0 +1,14 @@
+<!--home.wxml-->
+<searchbar></searchbar>
+<swiper class = 'home-swiper' indicator-dots='{{true}}' indicator-active-color = 'orange' easing-function ='easeInOutCubic' circular='{{true}}' autoplay='{{true}}' interval='2000'>
+  <swiper-item>
+    <image class = 'home-swiper-img' src='https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1333723900,1679543620&fm=26&gp=0.jpg'></image>
+  </swiper-item>
+  <swiper-item>
+    <image class = 'home-swiper-img' src='https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1730615477,4048556676&fm=11&gp=0.jpg'></image>
+  </swiper-item>
+  <swiper-item>
+    <image class = 'home-swiper-img' src='https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1658705900,3383573154&fm=11&gp=0.jpg '></image>
+  </swiper-item>
+</swiper>
+<wcard goods = "{{list_items}}"></wcard>
